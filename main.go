@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 
 	// new client
-	// url := "18.136.202.24:8545"
-	url := "/home/wpf/go/src/github.com/DxChainNetwork/run-main-node/data/gdx.ipc"
+	url := "http://localhost:8545"
+	// url := "/home/wpf/go/src/github.com/DxChainNetwork/run-main-node/data/gdx.ipc"
 	rawClient, err := Dial(url)
 	if err != nil {
 		panic(err)
